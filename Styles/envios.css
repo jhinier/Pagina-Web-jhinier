@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+html body{
+    background-color: #CFD8DC  ;
+}
+/* Estilo para el header */
+html header{
+    background-color: #aa978f;
+}
+header i {
+    margin: 0 15px;
+    color: black;
+}
+.menu{		
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+.menu button{
+    color: #8d624f;
+    font-size: 20px;
+    font-weight:bold;
+    margin: 0 15px;
+    border-color: transparent;
+}
+
+/*Estilo para el main*/
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+html h2 {
+    border-bottom: 2px solid #8d624f;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #d8571f;
+}
+.metodos-envio ul li .image-container {
+    width: 450px;
+    height: 400px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.metodos-envio ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.metodos-envio ul li {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background-color:#4DB6AC ;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.metodos-envio ul li img {
+    max-width: 100%;
+    height: auto;
+}
+
+.metodos-envio ul li label {
+    display: block;
+    font-size: 2.5em; /* Incrementa el tamaño de la letra */
+    margin-bottom: 10px;
+    transition: color 0.3s ease; /* Agrega una animación a los cambios de color */
+}
+
+
+.metodos-envio ul li input[type="checkbox"]:checked + label {
+    color: #eff7ef; /* Cambia el color de la letra cuando el checkbox está seleccionado */
+}
+
+.metodos-envio ul li input[type="checkbox"] {
+    width: 35px; /* Tamaño del checkbox */
+    height: 35px; /* Tamaño del checkbox */
+    left: 10px; /* Posiciona en la parte izquierda */
+}
+
+.metodos-envio ul li .estandar {
+    background-color: #CFD8DC ; /* Color de fondo */
+    border: 1px solid #b2ebf2; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.zonas-cobertura p{
+font-size: 14pt;
+color:#3E2723 ;
+}
+/*Estilo de cobertura d ela zona*/
+.zonas-cobertura {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinear elementos al principio de cada columna */
+    max-width: 1000px; /* Ancho máximo de la sección */
+    margin: 20px auto; /* Margen superior e inferior automático, centrado horizontalmente */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cobertura {
+    flex-basis: calc(50% - 10px); /* Ancho del 50% con un espacio de 10px entre los divs */
+    margin-right: 20px; /* Margen derecho entre los divs */
+}
+
+.cobertura:last-child {
+    margin-right: 0; /* Quitar margen derecho del último div para evitar desbordamiento */
+}
+
+.cobertura img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cobertura ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.cobertura ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+.cobertura p{
+    font-size: 14pt;
+    color:#6e770a;
+}
+/* Estilo para el Footer */
+footer{
+    background-color: #120f0e;
+    text-align: center;
+}
+.footer{
+    padding: 2em;
+    margin: 0 8em;
+    display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 150px;
+}
+.seccion-1{
+    color:#ffffff;
+    text-align: center;
+}
+.seccion-1 a{
+    color: #ffffff;
+}
+.seccion-1 .fab {
+    font-size: 40px; /* Tamaño del icono */
+    margin-right: 30px; /* Espacio entre iconos */
+}
+.seccion-2{
+    color:#ffffff;
+}
+.seccion-2 a{
+    color: #ffffff;
+}
+.small{
+    color: beige;
+    padding-bottom: 2em;
+}
+

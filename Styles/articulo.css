@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+html body{
+    background-color: #d6c4b3 ;
+}
+
+/* Estilo para el header */
+header{
+    padding-top: 0.7em;
+    background-color: #8d624f;
+}
+header i {
+    margin: 0 15px;
+    color: black;
+}
+.menu{		
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+.menu button{
+    color: #8d624f;
+    font-size: 20px;
+    font-weight:bold;
+    margin: 0 15px;
+    border-color: transparent;
+}
+
+/* Estilo para el main */
+html main {
+    display: flex; /* Usa flexbox para el contenedor principal */
+    flex-direction: row; /* Alinea los elementos en una fila horizontal */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a una nueva fila */
+    width: 100%;
+}
+main img{
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    width: 320px; /* Establece el ancho fijo de todas las imágenes */
+    height: 350px; /* Establece la altura fija de todas las imágenes */
+    object-fit: cover;
+}
+main img:hover {
+    transform: scale(1.2); /* Agranda la imagen al 120% */
+    z-index: 1; /* Asegura que la imagen agrandada se superponga a las otras */
+}
+.seccion{
+    width: 320px; /* Ancho fijo que coincide con el ancho de la imagen */
+    margin: 1.6em auto; /* Centra la sección */
+    text-align: center;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+}
+.seccion .texto{
+    text-align: justify;
+    width: 100%; /* Ancho al 100% del contenedor */
+    max-width: 100%; /* Asegura que no exceda el 100% del contenedor */
+    height: auto;
+    overflow: auto; /* Agrega barras de desplazamiento si es necesario */
+    padding: 13px; /* Añade un poco de padding para separación interna */
+}
+.seccion h5{
+    font-size: 16px;
+    font-family:Poppins, sans-serif;
+    color: rgb(6, 6, 6);
+}
+.seccion h5 strong{
+    color: rgb(40, 111, 203);
+    font-size: 15pt;
+}
+
+/* Estilo paar el footer */
+footer{
+    background-color: #535353;
+    text-align: center;
+}
+.footer{
+    padding: 2em;
+    margin: 0 8em;
+    display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 150px;
+}
+.seccion-1{
+    color:#ffffff;
+    text-align: center;
+}
+.seccion-1 a{
+    color: #ffffff;
+}
+.seccion-1 .fab {
+    font-size: 40px; /* Tamaño del icono */
+    margin-right: 30px; /* Espacio entre iconos */
+}
+.seccion-2{
+    color:#ffffff;
+}
+.seccion-2 a{
+    color: #ffffff;
+}
+.small{
+    color: beige;
+    padding-bottom: 2em;
+}

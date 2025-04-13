@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+html body{
+    background-color: #DBC4B2;
+}
+
+/* Estilo para el header */
+header{
+    padding-top: 0.7em;
+    background-color: #8d624f;
+}
+header i {
+    margin: 0 15px;
+    color: black;
+}
+.menu{		
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+.menu button{
+    color: #845845;
+    font-size: 20px;
+    font-weight:bold;
+    margin: 0 15px;
+    border-color: transparent;
+}
+
+/* Estilo para el main */
+.seccion{
+display: flex;
+flex-direction: row;
+gap: 2em;
+padding: 3em;
+}
+.seccion-texto{
+    font-weight:bold;
+    text-align: center;
+    color: #151311;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; align-items: center;
+}
+h5{
+    text-align: center;
+}
+.seccion-imagen img{
+    width: 700px;
+    height: 450px;
+}
+
+.seccion-texto p{
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seccion-video {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.video-container video {
+    width: 100%;
+    max-width: 300px; /* Ajusta el ancho máximo del video */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo paar el footer */
+footer{
+    background-color: #535353;
+    text-align: center;
+}
+.footer{
+    padding: 2em;
+    margin: 0 8em;
+    display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 150px;
+}
+.seccion-1{
+    color:#ffffff;
+    text-align: center;
+}
+.seccion-1 a{
+    color: #ffffff;
+}
+.seccion-1 .fab {
+    font-size: 40px; /* Tamaño del icono */
+    margin-right: 30px; /* Espacio entre iconos */
+}
+.seccion-2{
+    color:#ffffff;
+}
+.seccion-2 a{
+    color: #ffffff;
+}
+.small{
+    color: beige;
+    padding-bottom: 2em;
+}
